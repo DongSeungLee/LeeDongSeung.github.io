@@ -281,9 +281,9 @@ compress_html:
 
       
 comments:
-  provider               : "disqus"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : leedongseung-1 # Short-name
+    shortname            : "leedongseung-1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 defaults:
   # _posts
